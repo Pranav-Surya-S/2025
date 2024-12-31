@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Style Repo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div class="header">
+      <!-- Left side (repo buttons) -->
+      <div class="repo-header-left">
+        <button class="repo-button master">
+          <img src="branch.png" class="button-icon" alt="Branch Icon" /> main
+        </button>
+        <button class="repo-button branch">
+          <img src="branch.png" class="button-icon" alt="Branch Icon" /> 8
+          branches
+        </button>
+        <button class="repo-button tag">
+          <img src="tag.png" class="button-icon" alt="Tag Icon" /> 1 tag
+        </button>
+      </div>
+
+      <!-- Right side (search box and code button) -->
+      <div class="repo-header-right">
+        <input type="text" class="search-box" placeholder="Go to file..." />
+        <button class="code-button" id="codeButton">Quotes</button>
+      </div>
+    </div>
+
+    <!-- Repo Container -->
+    <div class="repo-container">
+      <div class="repo-content">
+        <textarea
+          class="repo-textbox"
+          id="quote-textbox"
+          placeholder="Github Themed Random Quotes Generator Created by Pranav Surya S&#10;GitHub Repo is available at the bottom of the screen &#10;Sorry if this looks unpolished, this was rushed due to time limitations.&#10;&#10;Please click the Quotes button to get a new quote..."
+        ></textarea>
+      </div>
+    </div>
+    <div class="link-section">
+      <a href="https://github.com/Pranav-Surya-S" target="_blank" class="link"
+        >GitHub</a
+      >
+      |
+      <a
+        href="https://www.linkedin.com/in/pranav-surya-s-6b6b20302/"
+        target="_blank"
+        class="link"
+        >LinkedIn</a
+      >
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
